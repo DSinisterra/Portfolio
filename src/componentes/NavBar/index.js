@@ -3,9 +3,9 @@ import { faTwitter, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-
 
 export default function NavBar() {
     return (
-      <nav className="py-4 px-6 flex items-center space-x-4 justify-between items-center fixed top-0 w-full z-10">
+      <nav className="bg-gray-800 py-4 px-6 flex justify-between items-center fixed top-0 w-full z-10">
         <h1 className='text-white text-2xl font-semibold'>Denis</h1>
-        <section className='flex space-x-4'>
+        <section className=''>
           <a href='https://github.com/DSinisterra/' target='_blank' rel="noopener noreferrer" className='text-white hover:text-gray-400 transition duration-300' >
             <FontAwesomeIcon icon={faGithub} size="lg" />
           </a>
